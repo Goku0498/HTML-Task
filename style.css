@@ -1,0 +1,21 @@
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(250, 194, 154);
+}
+
+.movie-card img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lnk {
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(176, 149, 112);
+}

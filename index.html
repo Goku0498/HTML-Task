@@ -3,151 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie & Events Booking</title>
+    <title>Movie Booking Homepage</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
     />
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="Movie">Movie Booking</h1>
-    <div class="container">
-      <div class="row row-cols-4">
-        <div class="col">
-          <img
-            src="./D&W.jpeg"
-            alt="Deadpool & Wolverine"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Deadpool & Wolverine</h4>
-          <p>Date: 11-08-2024</p>
-          <p>Time: 09:00AM</p>
-          <p>Seats available: 250</p>
-          <button class="button">
-            <a href="d&w.html">Book Now</a>
-          </button>
-        </div>
-        <div class="col">
-          <img
-            src="./Indian2.webp"
-            alt="Indian2"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Indian-2</h4>
-          <p>Date: 11-08-2024</p>
-          <p>Time: 12:00PM</p>
-          <p>Seats available: 250</p>
-          <button class="button">
-            <a href="ind2.html">Book Now</a>
-          </button>
-        </div>
-        <div class="col">
-          <img
-            src="./Raayan.jpg"
-            alt="Raayan"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Raayan</h4>
-          <p>Date: 11-08-2024</p>
-          <p>Time: 03:00PM</p>
-          <p>Seats available: 250</p>
-          <button class="button">
-            <a href="ryn.html">Book Now</a>
-          </button>
-        </div>
-        <div class="col">
-          <img
-            src="./Kalki.jpeg"
-            alt="Kalki 2898 AD"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Kalki 2898 AD</h4>
-          <p>Date: 11-08-2024</p>
-          <p>Time: 06:00PM</p>
-          <p>Seats available: 150</p>
-          <button class="button">
-            <a href="kal.html">Book Now</a>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row row-cols-4">
-        <div class="col">
-          <img
-            src="./Andhagan.jpg"
-            alt="Andhagan"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Andhagan</h4>
-          <p>Date: 12-08-2024</p>
-          <p>Time: 09:00AM</p>
-          <p>Seats available: 250</p>
-          <button class="button">
-            <a href="and.html">Book Now</a>
-          </button>
-        </div>
-        <div class="col">
-          <img
-            src="./boat.jpeg"
-            alt="Boat"
-            width="175px"
-            height="275px"
-            class="img"
-          />
-          <h4>Boat</h4>
-          <p>Date: 12-08-2024</p>
-          <p>Time: 12:00PM</p>
-          <p>Seats available: 250</p>
-          <button class="button">
-            <a href="boat.html">Book Now</a>
-          </button>
-        </div>
-        <div class="uc">
-          <h2>Upcoming Movie</h2>
-          <div class="col">
-            <img
-              src="./dc2.avif"
-              alt="Demonte Colony 2 - Vengeance Of The Unholy"
-              width="175px"
-              height="275px"
-              class="img"
-            />
-            <h4>Demonte Colony 2 - Vengeance Of The Unholy</h4>
-            <p>Date: 15-08-2024</p>
-            <p>Time: 09:00AM</p>
-            <p>Seats available: 250</p>
-            <button class="button">
-              <a href="dc2.html">Book Now</a>
+    <div class="container mt-4">
+      <h1 class="text-center mb-4">Movie Booking</h1>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/D&W.jpg" alt="Deadpool & Wolverine" />
+            <h5>Deadpool & Wolverine (2024)</h5>
+            <p>Date & Time: 15-Aug-2024 09:00AM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./D&W.html" class="lnk">Book Now</a>
             </button>
           </div>
-          <div class="col">
-            <img
-              src="./goat.jpg"
-              alt="The Greatest of All Time"
-              width="175px"
-              height="275px"
-              class="img"
-            />
-            <h4>The Greatest of All Time</h4>
-            <p>Date: 05-09-2024</p>
-            <p>Time: 06:00PM</p>
-            <p>Seats available: 250</p>
-            <button class="button">
-              <a href="goat.html">Book Now</a>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/Indian2.webp" alt="Indian2" />
+            <h5>Indian-2 (2024)</h5>
+            <p>Date & Time: 15-Aug-2024 12:00PM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./ind2.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/Kalki.jpg" alt="Kalki 2898 AD" />
+            <h5>Kalki 2898 AD (2024)</h5>
+            <p>Date & Time: 15-Aug-2024 03:00PM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./kal.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/Raayan.jpg" alt="Raayan" />
+            <h5>Raayan (2024)</h5>
+            <p>Date & Time: 15-Aug-2024 06:00PM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./ryn.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/boat.jpg" alt="Boat" />
+            <h5>Boat (2024)</h5>
+            <p>Date & Time: 16-Aug-2024 09:00AM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./boat.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/Andhagan.jpg" alt="Andhagan" />
+            <h5>Andhagan (2024)</h5>
+            <p>Date & Time: 16-Aug-2024 12:00PM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./and.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/dc2.avif" alt="Demonte Colony 2" />
+            <h5>Demonte Colony 2 (2024)</h5>
+            <p>Date & Time: 16-Aug-2024 03:00PM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./dc2.html" class="lnk">Book Now</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="movie-card">
+            <img src="./Images/goat.jpg" alt="GOAT" />
+            <h5>GOAT (2024)</h5>
+            <p>Date & Time: 05-Sep-2024 09:00AM</p>
+            <p>Seats Available: 250</p>
+            <button class="btn btn-primary">
+              <a href="./goat.html" class="lnk">Book Now</a>
             </button>
           </div>
         </div>
