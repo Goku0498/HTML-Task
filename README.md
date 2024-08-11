@@ -42,3 +42,8 @@
   <li>Display succession message and have a button "Go to homepage"</li>
   <li>While clicking "Go to homepage" it will go back to the Movie booking homepage (Task 1)</li>
 </ul>
+
+<h6>File of Booking confirmation</h6>
+<ul>
+  <li>sub.html</li>
+</ul>
